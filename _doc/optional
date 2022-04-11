@@ -1,0 +1,15 @@
+
+	- Article:
+	-------------
+	    - Image couverture d'article
+
+	- Utilisateur
+	-------------
+	    --> Un utilisateur pourra s'enregistrer
+		    --> Trouver un moyen d'éviter les robots qui créent des comptes automatiquement
+		--> Avoir un espace perso pour:
+		    --> Uploader un avatar
+
+	- Une page principale contenant les articles
+	---------------------------------------------
+		- Devra contenir un filtre pour filtrer selon certains critères

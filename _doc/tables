@@ -1,0 +1,32 @@
+Article
+  - identifiant -> entier
+  - titre  -> string
+  - contenu -> text
+  - Date création -> date
+  - Date mise à jour -> date
+  - auteur -> Relation
+
+
+Utilisateur
+    - identifiant -> entier
+    - email -> string
+    - nom -> string
+    - prenom -> string
+    - password -> string
+    - age: entier
+
+Role
+    - identifiant -> entier
+    - role_name -> string
+
+utilisateur_role
+    - identifiant -> entier
+    - identifiant utilisateur -> entier
+    - identifiant role -> entier
+
+
+Commentaire
+    - identifant -> entier
+    - contenu -> text
+    - auteur -> Relation
+    - article -> Relation

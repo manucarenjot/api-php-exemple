@@ -1,0 +1,30 @@
+- Article
+	----------
+	    --> Modérer
+		--> Editer l'article si ........
+		--> Reporter l'article si ........
+
+	- Utilisateur
+	-------------
+	    --> Un utilisateur pourra s'enregistrer
+		--> Pensez à envoyer un mail de vérification poru savoir si l'adresse entrée appartient bien à l'utilisateur
+		--> Inclure un système de reset password
+
+
+	    --> Un utilisateur devra etre connecté pour:
+            --> Modifier un de ses articles
+		    --> Supprimer un de ses articles
+            --> Modifier un de ses commentaires
+            --> Supprimer un de ses commentaires
+
+		--> Avoir un espace perso pour:
+	        --> Modifier ses informations
+            --> Lister les articles qu'il aurait écrit
+            --> Lister les commentaires qu'il aurait écrit
+		    --> RGPD: Supprimer son compte
+
+	- Commentaires
+	---------------
+		- Etre supprimé
+		- Etre edité
+		- Etre modifié (si modération ou si auteur souhaite modifier)

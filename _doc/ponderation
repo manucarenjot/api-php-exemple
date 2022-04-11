@@ -1,0 +1,68 @@
+Pondération.
+===============
+
+	Niveaux de pondération:
+	~~~~~~~~~~~~~~~~~~~~~~~~
+	--> M = Mandatory
+	--> N = Nice to have
+	--> O = Optional
+
+
+	- Article
+	----------
+	    --> M => Ajouter
+	    --> M => Supprimer
+	    --> M => Modifier
+  	    --> M => Lire
+	    --> N => Modérer
+		--> N => Editer l'article si ........
+		--> N => Reporter l'article si ........
+
+	- Utilisateur
+	-------------
+	    --> M => Un utilisateur pourra s'enregistrer
+		--> N => Pensez à envoyer un mail de vérification poru savoir si l'adresse entrée appartient bien à l'utilisateur
+		--> M => Trouver un moyen de vérifier l'age de l'utilisateur (nous avons un formum réservé au plus de 16 ans)
+		--> O => Trouver un moyen d'éviter les robots qui créent des comptes automatiquement
+		--> N => Inclure un système de reset password
+		--> M => Modifier toutes ses infos personnelles
+
+	    --> M => Un utilisateur ne devra pas etre connecté pour lire un article
+
+	    --> Un utilisateur devra etre connecté pour:
+		    --> M => ecrire un article
+                    --> N => Modifier un de ses articles
+		    --> N => Supprimer un de ses articles
+		    --> M => Ecrire un commentaire
+                    --> N => Modifier un de ses commentaires
+                    --> N => Supprimer un de ses commentaires
+
+		--> Avoir un espace perso pour:
+	            --> N => Modifier ses informations
+                    --> N => Lister les articles qu'il aurait écrit
+                    --> N => Lister les commentaires qu'il aurait écrit
+		    --> N => RGPD: Supprimer son compte
+		    --> O => Uploader un avatar
+	- Role
+	---------
+		- M => Un role devra pouvoir etre attribué / retiré
+		- M => Un role par défaut sera attribué à la création d'un compte (role sans drotis particuliers)
+
+	- Un système d'administration:
+	---------------------------------
+		- M => Supprimer un article
+		- M => Supprimer un commentaire
+		- M => Supprimer un utilisateur
+		- M => Attribuer les roles
+
+	- Commentaires
+	---------------
+		- M => Pourra etre écrit
+		- N => Etre supprimé
+		- N => Etre edité
+		- N => Etre modifié (si modération ou si auteur souhaite modifier)
+
+	- Une page principale contenant les articles
+	---------------------------------------------
+		- M => Devra contenir les liens pour voir la totalité des articles.
+		- O => Devra contenir un filtre pour filtrer selon certains critères

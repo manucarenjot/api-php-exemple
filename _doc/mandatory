@@ -1,0 +1,38 @@
+	- Article
+	----------
+	    --> Ajouter
+	    --> Supprimer
+	    --> Modifier
+  	    --> Lire
+
+
+	- Utilisateur
+	-------------
+	    --> Un utilisateur pourra s'enregistrer
+		--> Trouver un moyen de vérifier l'age de l'utilisateur (nous avons un formum réservé au plus de 16 ans)
+		--> Modifier toutes ses infos personnelles
+	    --> Un utilisateur ne devra pas etre connecté pour lire un article
+	    --> Un utilisateur devra etre connecté pour:
+		    --> ecrire un article
+		    --> Ecrire un commentaire
+
+	- Role
+	---------
+		- Un role devra pouvoir etre attribué / retiré
+		- Un role par défaut sera attribué à la création d'un compte (role sans drotis particuliers)
+
+	- Un système d'administration:
+	---------------------------------
+		- Supprimer un article
+		- Supprimer un commentaire
+		- Supprimer un utilisateur
+		- Attribuer les roles
+
+	- Commentaire
+	---------------
+		- Pourra etre écrit
+
+
+	- Une page principale contenant les articles
+	---------------------------------------------
+		- Devra contenir les liens pour voir la totalité des articles.

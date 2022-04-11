@@ -1,0 +1,74 @@
+Micro blog
+------------
+
+--> Micro cahier des charges.
+=================================
+
+- Possibilité d'écrire / modifier / et supprimer / de modérer / archiver un article
+- Un article ne peut pas etre anonyme, il devra etre associé à un utilisateur
+- Tout utilisateur enregistré doit pouvoir écrire un article
+- Un utilisateur pourra écrire un commentaire / ou plusieurs pour un / des articles
+- Les commentaires pourront etre modérés
+- Une liste d'article devra etre disponibles en tant que page principale
+- Un modérateur peut créer des articles.
+
+
+
+--> Ventilation du MICRO cahier des charges.
+==============================================
+
+	- Article
+	----------
+	    --> Ajouter
+	    --> Supprimer
+	    --> Modifier
+  	    --> Lire
+	    --> Modérer
+		--> Editer l'article si ........
+		--> Reporter l'article si ........
+
+	- Utilisateur
+	-------------
+	    --> Un utilisateur pourra s'enregistrer
+		--> Pensez à envoyer un mail de vérification poru savoir si l'adresse entrée appartient bien à l'utilisateur
+		--> Trouver un moyen de vérifier l'age de l'utilisateur (nous avons un formum réservé au plus de 16 ans)
+		--> Trouver un moyen d'éviter les robots qui créent des comptes automatiquement
+		--> Inclure un système de reset password
+		--> Modifier toutes ses infos personnelles
+            --> Un utilisateur ne devra pas etre connecté pour lire un article
+            --> Un utilisateur devra etre connecté pour:
+		    --> ecrire un article
+                    --> Modifier un de ses articles
+		    --> Supprimer un de ses articles
+		    --> Ecrire un commentaire
+                    --> Modifier un de ses commentaires
+                    --> Supprimer un de ses commentaires
+	    --> Avoir un espace perso pour:
+	            --> Modifier ses informations
+                    --> Lister les articles qu'il aurait écrit
+                    --> Lister les commentaires qu'il aurait écrit
+		    --> RGPD: Supprimer son compte
+		    --> Uploader un avatar
+	- Role
+	---------
+		- Un role devra pouvoir etre attribué / retiré
+		- Un role par défaut sera attribué à la création d'un compte (role sans drotis particuliers)
+
+	- Un système d'administration:
+	---------------------------------
+		- Supprimer un article
+		- Supprimer un commentaire
+		- Supprimer un utilisateur
+		- Attribuer les roles
+
+	- Commentaires
+	---------------
+		- Pourra etre écrit
+		- Etre supprimé
+		- Etre edité
+		- Etre modifié (si modération ou si auteur souhaite modifier)
+
+	- Une page principale contenant les articles
+	---------------------------------------------
+		- Devra contenir les liens pour voir la totalité des articles.
+		- Devra contenir un filtre pour filtrer selon certains critères
